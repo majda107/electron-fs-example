@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello from HTML!</title>
+  </head>
+  <body>
+    <label>Folder path:</label> <input id="list-folder-input"/>
+    <button id="list-folder-button">LIST FILES IN FOLDER</button>
+
+    <br/>
+
+    <span>Listed files:</span>
+    <pre id="files-view"></pre>
+  </body>
+
+  <script src="./button.js"></script>
+</html>

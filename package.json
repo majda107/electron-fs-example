@@ -1,0 +1,12 @@
+{
+  "name": "electron-fs",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^32.0.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
